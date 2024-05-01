@@ -48,42 +48,4 @@ while True:
 
 
 
-
-#references
-    #https://gist.github.com/TheZehn/182b05dfcde4331315c453b63af1a3f9
-    #using socket library to try and get the hostname by the assigned IP : https://stackoverflow.com/questions/70056880/is-there-a-way-to-get-hostnames-with-scapy-in-python
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    #----This section doesnt work-------------------------------
-
-    # #Finding the hostname by going through DHCP options
-    # for opt in a[0][DHCP].options:
-    #     #There's a bunch of information in the DHCP traffic, we just want the
-	# 	# information that's presented in a tuple
-    #     if isinstance(opt,type):
-    #         option,value=opt
-    #         #if the option specifies the hostname, use that as the name
-    #         if option=='hostname':
-    #               hostname=value
-
-  
-            
     
